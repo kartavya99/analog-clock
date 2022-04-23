@@ -54,3 +54,25 @@
 .hour-11{--rotation: 330deg;}
 .hour-12{--rotation: 0deg;}
 
+.second-hand-wrapper{
+    width : 400px;
+    height: 400px;
+    /* background-color: lightblue; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.second-hand{
+    position: relative;
+}
+
+.second-hand{
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 199px;
+    /* 199px = (second.hand.wrapper(400px) - second.hand.width(2px) / 2 */
+}

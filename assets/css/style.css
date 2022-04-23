@@ -61,6 +61,7 @@
     position: absolute;
     top: 50px;
     left: 50px;
+    /* [(clock dial(500px)) - (second-hand-wrapper(400px)] / 2 */
     border-radius: 50%;
 }
 
@@ -75,4 +76,28 @@
     position: absolute;
     left: 199px;
     /* 199px = (second.hand.wrapper(400px) - second.hand.width(2px) / 2 */
+}
+
+.minute-hand-wrapper{
+    width : 350px;
+    height : 350px;
+    background-color: beige;
+    position : absolute;
+    top: 75px;
+    left : 75px;
+    /* [(clock dial(500px)) - (minute-hand-wrapper(350px)] / 2 */
+    border-radius: 50%;
+}
+
+.minute-hand{
+    position : relative;
+}
+
+.minute-hand{
+    width: 6px;
+    height: 175px;
+    background-color: black;
+    position: absolute;
+    left: 172px;
+    /* 172px = (minute.hand.wrapper(350px) - minute.hand.width(6px) / 2 */
 }

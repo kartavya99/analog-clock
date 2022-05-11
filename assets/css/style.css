@@ -1,5 +1,14 @@
 
 
+body {
+    background-color: rgb(189, 230, 241);
+}
+
+#title{
+    text-align: center;
+    margin-top: 50px;
+}
+
 .clock-dial{
     width: 500px;
     height: 500px;
@@ -8,6 +17,7 @@
     margin: 0 auto;
     position: relative; 
     /* applying position to make other element relative to this */
+    margin-top: 20px;
 }
 
 .point{
